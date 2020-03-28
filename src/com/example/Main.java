@@ -7,6 +7,7 @@ public class Main {
         int sum = add(5,8);
 
         System.out.println("The sum is : " + sum);
+
         System.out.println("End of program");
     }
 
