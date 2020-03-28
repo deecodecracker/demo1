@@ -3,9 +3,11 @@ package com.example;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World to Deepak !!!");
+        int sum = add(5,8);
+        System.out.println("The sum is : " + sum);
+    }
 
-
-        System.out.println("I have successfully added to git !!!");
+    private static int add(int a,int b) {
+        return a+b;
     }
 }
